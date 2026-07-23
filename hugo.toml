@@ -18,15 +18,13 @@ ignoreErrors = ["error-remote-getjson"]
   disableHLJS = true
   disablePostNavigation = true
   monoDarkIcon = true
-  math = false
-  twitter = 'YOUR_TWITTER_ID'               # twitter.com/YOUR_TWITTER_ID
-  github = 'YOUR_GITHUB_ID'                 # github.com/YOUR_GITHUB_ID
-  instagram = 'YOUR_INSTAGRAM_ID'           # instagram.com/YOUR_INSTAGRAM_ID
-  linkedin = 'YOUR_LINKEDIN_ID'    
+  math = true
+  twitter = 'Saugat_K90'               # twitter.com/YOUR_TWITTER_ID
+  github = 'peski-sys'                 # github.com/YOUR_GITHUB_ID  
   direction = "ltr"
-  avatar = 'GRAVATAR_EMAIL'                 # gravatar email or image url
-  favicon = "favicon.ico"
-  appleTouchIcon = "apple-touch-icon.png"
+  avatar = ''                 # gravatar email or image url
+  favicon = ""
+  appleTouchIcon = ""
   mainSections = ["posts", "post"]
 
 [markup]
