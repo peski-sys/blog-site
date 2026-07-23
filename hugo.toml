@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://peski-sys.github.io/blog-site/"
 locale = "en-US"
 title = "Saugat's Blog"
 theme = "paper"
