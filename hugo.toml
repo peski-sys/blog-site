@@ -1,0 +1,40 @@
+baseURL = "/"
+locale = "en-US"
+title = "Saugat's Blog"
+theme = "paper"
+
+enableInlineShortcodes = true
+ignoreErrors = ["error-remote-getjson"]
+
+[pagination]
+  pagerSize = 5
+
+[params]
+  color = "linen"
+  description = "A research blog."
+  name = "Blogs"
+  bio = "This is a blog of my learnings, experiments, and research writing."
+  rss = true
+  disableHLJS = true
+  disablePostNavigation = true
+  monoDarkIcon = true
+  math = false
+  twitter = 'YOUR_TWITTER_ID'               # twitter.com/YOUR_TWITTER_ID
+  github = 'YOUR_GITHUB_ID'                 # github.com/YOUR_GITHUB_ID
+  instagram = 'YOUR_INSTAGRAM_ID'           # instagram.com/YOUR_INSTAGRAM_ID
+  linkedin = 'YOUR_LINKEDIN_ID'    
+  direction = "ltr"
+  avatar = 'GRAVATAR_EMAIL'                 # gravatar email or image url
+  favicon = "favicon.ico"
+  appleTouchIcon = "apple-touch-icon.png"
+  mainSections = ["posts", "post"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
